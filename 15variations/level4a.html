@@ -4,64 +4,137 @@
     <meta charset="utf-8">
     <title></title>
     <style media="screen">
+    .home{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:50px;
+    }
+
+    .home:hover{
+      transform: scale(1.5);
+    }
+
+    .next{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:15px;
+      margin-left: 10px;
+    }
+    .next:hover{
+      transform: scale(1.5);
+    }
+    .back{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:90px;
+    }
+
+    .back:hover{
+      transform: scale(1.5);
+    }
 
     .testbg{
-      color: #F012BE;
+      color: white;
       opacity: 0.5;
       z-index: -1;
       font-family: monospace;
+      mix-blend-mode: multiply;
    }
     .doubt{
       font-family: arial;
-      color: #39CCCC;
-      opacity: 0.5;
-      z-index: 1;
+      color: #ca6e7b;
+      opacity: 1;
+      z-index: -1;
       position: fixed ;
       padding-top: 50px;
       text-align: center;
       font-size: 280px;
+      font-weight: bold;
+      animation-duration: 3s;
+      animation-name: slidein;
+      mix-blend-mode: multiply;
+    }
+    @keyframes slidein {
+      0% {
+    transform: translateX(120%);
+    }
+    100% {
+    transform: translateX(0);
+    }
     }
     .is{
       font-family: arial;
-      color: #39CCCC;
-      opacity: 0.3;
-      z-index: 2;
+      color: #80b8f0;
+      z-index: -1;
       padding-left: 310px;
       padding-top: 70px;
       position: fixed;
       text-align: center;
       font-size: 450px;
+      font-weight: bold;
+      mix-blend-mode: multiply;
+
     }
+
     .better{
         font-family: arial;
-        color: #39CCCC;
-        opacity: 0.5;
+        color: #ca6e7b;
         z-index: -1;
-        padding-left: 220px;
+        padding-left: 160px;
         padding-top: 300px;
         position: fixed;
         text-align: center;
         font-size:  280px;
+        font-weight: bold;
+        animation-duration: 3s;
+        animation-name: slideinr;
+        mix-blend-mode: multiply;
     }
+
+    @keyframes slideinr {
+      0% {
+    transform: translateX(-100%);
+    opacity: 0
+      }
+      5% {
+        opacity: 1;
+      }
+      100% {
+    transform: translateX(0);
+
+  }
+}
     .than{
       font-family: arial;
-      color: #0074D9;
-      padding-left: 600px;
-      padding-top: 100px;
-      z-index: -2;
-      position: absolute;
-      opacity: 0.4;
-      font-size:  200px;
+      color: #80b8f0;
+      position: fixed;
+      font-size: 100px;
+      z-index: -1;
+      top:180px;
+      padding-left: 270px;
+      position: fixed;
+      mix-blend-mode: multiply;
+      animation-duration: 8s;
+      animation-name: slideinr;
+      animation-delay: 4s;
 
     }
     .cert{
       font-family: arial;
-      color: #0074D9;
-      z-index: -2;
-      position: absolute;
-      opacity: 0.3;
-      font-size:  200px;
-      padding-top: 30px;
+      color: #80b8f0;
+      z-index: -1;
+      position: fixed;
+      top:-50px;
+      font-size:  100px;
+      padding-left: 580px;
+      mix-blend-mode: multiply;
+      animation-duration: 8s;
+      animation-name: slideinr;
+      animation-delay: 2s;
+
     }
     .testbg{
       text-align: justify;
@@ -72,10 +145,7 @@
 
 
 
-<div class="than">
-<br><br><br>
-  THAN
-</div>
+
 <div class="doubt">
 DOUBT
 </div>
@@ -84,6 +154,10 @@ DOUBT
 </div>
 <div class="better">
   BETTER
+</div>
+<div class="than">
+<br><br><br>
+  THAN
 </div>
 <div class="cert">
   <br><br><br><br><br>
@@ -139,5 +213,15 @@ inty. Everyone always talks about confidence in believing what you do. I remembe
   Doubt is better than certainty. Everyone always talks about confidence in believing what you do. I remember once going to a class in yoga where the teacher said that, spirituality speaking, if you believed that you had achieved enlightenment you have merely arrived at your limitation. I think that is also true in a practical sense.
   Doubt is better than certainty. Everyone always talks about confidence in believing what you do. I remember once going to a class in yoga where the teacher said that, spirituality speaking, if you believed that you had achieved enlightenment you
 </div>
+<div class="back">
+  <a href="level3c.html"><img alt="next" src="assets/back.png" style="height: 25px; width: 25px;"></a>
+</div>
+<div class="home">
+  <a href="index0.html"><img alt="home" src="assets/home.png" style="height: 20px; width: 20px;"></a>
+  </div>
+<div class="next">
+  <a href="level4b.html"><img alt="next" src="assets/next.png" style="height: 20px; width: 20px;"></a>
+</div>
+
   </body>
 </html>

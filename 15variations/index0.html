@@ -5,56 +5,154 @@
     <title></title>
     <style media="screen">
 
-    body, html {
-      height: 100%;
-      margin: 0;
-      }
-      .bg {
-      background-image: url("assets/bggg.JPG");
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      z-index: -1
+  body{
+    height: 100%;
+    background: #e2cfcf;
   }
 
   img {
-  position: absolute;
-  top: 250px;
-  left: 250px;
+  max-width:100%;
+  size: 20%;
+  transition: 0.5s;
   }
 
-  .txt1a{
-    text-align: center;
-	width:150px;
-	height:150px;
-  position: absolute;
-  top: 240px;
-  left: 250px;
-  background: #FFDC00;
-  color: #fff;
-  visibility: hidden;
+  img:hover {
+    transform: scale(1.5, 1.5);
+  }
+
+  .pages{
+    padding-left: 15%;
+    padding-right: 7%;
+    padding-top: 5%;
+  }
+  .txt{
+    padding-top: 30px;
   opacity: 0;
-}
-a.img1a:hover, a.img1a:active {size: 150%;}
+  font-family: Futura;
+  text-align: center;
+  font-size: 10px;
+  }
+
+  .sym{
+    display: inline-block;
+    width:18% ;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+    mix-blend-mode: overlay;
+  }
+
+  .sym:hover .txt{
+    display: block;
+    opacity: 1;
+
+  }
+
+.sym:hover:before {
+  }
+
+  .homepg{
+    position: fixed;
+text-align: center;
+font-family: Futura;
+font-size: 20px;
+margin-top: 20px;
+transform: rotate(-90deg);
+top: 270px;
+left: -140px;
+  }
+
+
 
     </style>
   </head>
   <body>
 
-<div class="parent1a">
-  <div class="img1a">
-    <a href="level1a.html"><img border="0" alt="W3Schools" src="assets/level1a.png" width="150" height="150"></a>
+    <div class="homepg">
+      Dyann Obtinalla &nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size:50px;">PROJECT ONE</span>
     </div>
-  <p class="txt1a">Level 1 A</p>
-</div>
+
+<div class="pages">
+  <div class="sym">
+    <div class="onea">
+      <a href="level1a.html"><img alt="icon1a" src="assets/level1a.png"></a>
+      <p class="txt" > LEVEL 1 A </p>
+    </div>
+  </div>
+
+  <div class="sym">
+      <a href="level1b.html"><img alt="icon1b" src="assets/level1b.png"></a>
+      <p class="txt" > LEVEL 1 B </p>
+  </div>
+
+  <div class="sym">
+      <a href="level1c.html"><img alt="icon1c" src="assets/level1c.png" ></a>
+      <p class="txt" > LEVEL 1 C </p>
+  </div>
+
+  <div class="sym">
+      <a href="level2a.html"><img alt="icon2a" src="assets/level2a.png" ></a>
+      <p class="txt" > LEVEL 2 A </p>
+  </div>
+
+  <div class="sym" >
+      <a href="level2b.html"><img alt="icon2b" src="assets/level2b.png"></a>
+      <p class="txt" > LEVEL 2 B </p>
+  </div>
+
+  <div class="sym" >
+      <a href="level2c.html"><img alt="icon2c" src="assets/level2c.png"></a>
+      <p class="txt" > LEVEL 2 C </p>
+  </div>
 
 
+  <div class="sym">
+      <a href="level3a.html"><img alt="icon3a" src="assets/level3a.png"></a>
+      <p class="txt" > LEVEL 3 A </p>
+  </div>
+
+  <div class="sym">
+      <a href="level3b.html"><img alt="icon3b" src="assets/level3b.png"></a>
+      <p class="txt" > LEVEL 3 B </p>
+  </div>
+
+  <div class="sym" >
+      <a href="level3c.html"><img alt="icon3c" src="assets/level3c.png"></a>
+      <p class="txt" > LEVEL 3 C </p>
+  </div>
+
+  <div class="sym">
+      <a href="level4a.html"><img alt="icon4a" src="assets/level4a.png" ></a>
+      <p class="txt" > LEVEL 4 A </p>
+    </div>
+
+    <div class="sym">
+        <a href="level4b.html"><img alt="icon4b" src="assets/level4b.png" ></a>
+        <p class="txt" > LEVEL 4 B </p>
+      </div>
+
+      <div class="sym">
+          <a href="level4c.html"><img alt="icon4c" src="assets/level4c.png" ></a>
+          <p class="txt" > LEVEL 4 C </p>
+        </div>
+
+        <div class="sym">
+            <a href="level5a.html"><img alt="icon5a" src="assets/level5a.png" ></a>
+            <p class="txt" > LEVEL 5 A </p>
+          </div>
+
+          <div class="sym">
+              <a href="level5b.html"><img alt="icon5b" src="assets/level5b.png" ></a>
+              <p class="txt" > LEVEL 5 B</p>
+            </div>
+
+            <div class="sym">
+                <a href="level5c.html"><img alt="icon5c" src="assets/level5c.png" ></a>
+                <p class="txt" > LEVEL 5 C</p>
+              </div>
+  </div>
 
 
-
-<div class="bg"></div>
-
-  </body>
+</body>
 </html>

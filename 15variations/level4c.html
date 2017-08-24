@@ -3,14 +3,157 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style media="screen">
+    .home{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:50px;
+    }
+
+    .home:hover{
+      transform: scale(1.5);
+    }
+
+    .next{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:15px;
+      margin-left: 10px;
+    }
+    .next:hover{
+      transform: scale(1.5);
+    }
+
+    .title{
+      position: fixed;
+      transform: rotate(90deg);
+      top: 300px;
+      right: -70px;
+      font-family: Futura;
+      animation-name: titlecol;
+      animation-duration: 5s;
+      animation-timing-function: ease-out;
+      animation-delay: 0;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+    }
+
+    @keyframes titlecol{
+  0% {
+  color: #ca6e7b;
+
+  }
+  50% {
+color: #a6cdf4;
+  }
+  100% {
+color: #cce7ff;
+
+  }
+}
+    .shape{
+      position: relative;
+      display: inline-block;
+      float: left;
+      height: 40vh;
+      width: 20vw;
+      background-color: red;
+      animation-name: stretch;
+      animation-duration: 5s;
+      animation-timing-function: ease-out;
+      animation-delay: 0;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      mix-blend-mode: multiply;
+      z-index: -1;
+      }
+
+    @keyframes stretch {
+  0% {
+    transform: scale(0.8);
+    background-color: #ca6e7b;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #a6cdf4;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #cce7ff;
+    border-radius: 70%;
+  }
+}
+
+.text{
+  padding-top: 100px;
+  margin-left: 25%;
+  margin-right: 40%;
+
+  position: fixed;
+  font-size: 1.5vh;
+  color: #bd4a5b;
+  mix-blend-mode: multiply;
+  font-family: Futura;
+  z-index: 1;
+  opacity: 0;
+  transition: 4s;
+  line-height: 300%;
+}
+.text:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+    </style>
   </head>
   <body>
 
-    <a href="index.html">Homepage</a>
-    <a href="level1a.html">Level 1 a</a>
-    <a href="level1a.html">Level 1 a</a>
-    <a href="level1a.html">Level 1 a</a>
-    <a href="level1a.html">Level 1 a</a>
-    
+    <div class="text">
+      <h1>Doubt is <span style="font-style: italic;">BETTER</span> than certainty. <br> Everyone always talks about <span style="font-style: italic;">CONFIDENCE</span> in believing what you do. I remember once going to a class in yoga where the teacher said that, <span style="font-style: italic;">SPIRITUALLY SPEAKING </span>,<br>if you believed that you had achieved enlightenment you have <span style="font-style: italic;">MERELY ARRIVED</span> at your <span style="font-style: italic;">LIMITATION</span> . I think that is also true in a practical sense.
+    </h1></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="shape"></div>
+
+<div class="title">
+  Ten Things I have Learned &nbsp;&nbsp; #8  &nbsp;&nbsp;MILTON GLASER
+
+</div>
+<br><br><br>
+<div class="back">
+  <a href="level4b.html"><img alt="next" src="assets/back.png" style="height: 25px; width: 25px;"></a>
+</div>
+<div class="home">
+  <a href="index0.html"><img alt="home" src="assets/home.png" style="height: 20px; width: 20px;"></a>
+  </div>
+<div class="next">
+  <a href="level5a.html"><img alt="next" src="assets/next.png" style="height: 20px; width: 20px;"></a>
+</div>
+
   </body>
 </html>

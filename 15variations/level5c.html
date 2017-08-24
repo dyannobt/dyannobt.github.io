@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    .home{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:50px;
+    }
+
+    .home:hover{
+      transform: scale(1.5);
+    }
+
+    .next{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:15px;
+      margin-left: 10px;
+    }
+    .next:hover{
+      transform: scale(1.5);
+    }
+    .back{
+      float: left;
+      position: fixed;
+      top: 10px;
+      right:90px;
+    }
+
+    .back:hover{
+      transform: scale(1.5);
+    }
+    body{
+
+    }
+      .body{
+        float:left;
+        text-align: center;
+        width: 80%;
+        margin: 10px;
+        font-size: 10px;
+      }
+
+
+    .title{
+      color: #bd4a5b;
+      top:300px;
+      text-align: center;
+      animation: type 4s steps(40, end);
+      white-space: nowrap;
+      overflow: hidden;
+      width:100%;
+      font-family: Futura;
+      font-size: 70px;
+      position: fixed;
+      font-weight: bold;
+      mix-blend-mode: multiply;
+      transform:scale(-1);
+    }
+    .title:hover{
+      transform:scale(1);
+    }
+
+    .author{
+      position: fixed;
+      font-family: Futura;
+      font-size: 25px;
+      margin-left: 43%;
+      color:#bd4a5b;
+
+    }
+    @keyframes type{
+    from { width: 0; }
+    }
+    .body{
+      top:140px;
+      position: fixed;
+      float:left;
+      width: 500px;
+      animation: skew 3s infinite;
+      transform: skew(20deg);
+      animation-direction: alternate;
+      font-size: 30px;
+      font-family: Futura;
+      text-align: right;
+        color:#80b8f0;
+        mix-blend-mode: multiply;
+    }
+    .body2{
+      top:140px;
+      margin-left: 60%;
+      animation: skew 3s infinite;
+      transform: skew(20deg);
+      animation-direction: alternate;
+        width: 500px;
+      font-size: 30px;
+      font-family: Futura;
+      position: fixed;
+        color:#80b8f0;
+        mix-blend-mode: multiply;
+    }
+    @keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
+  .line{
+    top:0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #80b8f0;
+    width: 10px;
+    height: 550px;
+    z-index: -1;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    mix-blend-mode: multiply;
+  }
+
+    </style>
+  </head>
+  <body>
+<br><br><br>
+
+<div class="title">
+  TEN THINGS I HAVE LEARNED #8
+</div>
+
+<div class="author">
+  Milton Glaser
+</div>
+
+    <div class="body">
+      Doubt is better than certainty. Everyone always talks about confidence in believing what you do.I remember once going to a class in yoga where the teacher said that, spirituality speaking, if you believed that you had achieved enlightenment you have merely arrived at your limitation. I think that is also true in a practical sense.
+    </div>
+    <div class="body2">
+      Doubt is better than certainty. Everyone always talks about confidence in believing what you do.I remember once going to a class in yoga where the teacher said that, spirituality speaking, if you believed that you had achieved enlightenment you have merely arrived at your limitation. I think that is also true in a practical sense.
+    </div>
+<div class="line"></div>
+
+<div class="back">
+  <a href="level5b.html"><img alt="back" src="assets/back.png" style="height: 25px; width: 25px;"></a>
+</div>
+
+<div class="home">
+  <a href="index0.html"><img alt="home" src="assets/home.png" style="height: 20px; width: 20px;"></a>
+  </div>
+
+
+  </body>
+</html>
