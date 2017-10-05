@@ -1,0 +1,136 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Start here */
+
+
+body {
+  font-family: arial;
+
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: block;
+  padding: 10px;
+}
+
+.item.thumb{
+  flex: 0 0 10%;
+}
+
+.item.full{
+  display: flex;
+  max-width: 100%;
+}
+.heading{
+  position:fixed;
+  top:0px;
+  right:0px;
+  margin: 20px;
+  font-size: 50px;
+  font-kerning: 30px;
+  font-family: Futura;
+  font-weight: bold;
+}
+
+.heading:hover{
+  color: #FF4136;
+}
+
+.faster{
+  position: fixed;
+  bottom:0px;
+  left:0px;
+}
+
+.nav{
+  font-family: Futura;
+  font-weight: bold;
+  position:fixed;
+  top:10px;
+  right:40px;
+  font-size: 60px;
+}
+
+span.nav_all{
+    font-size: 15px;
+}
+
+span.coloury:hover{
+  color: #EFCF09;
+  cursor: pointer;
+}
+
+span.colourr:hover{
+  color: #C73939;
+  cursor: pointer;
+}
+
+span.colourb:hover{
+  color: #3977C7;
+  cursor: pointer;
+}
+
+.faster span:hover{
+  color: #C73939;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.content {
+
+  padding: 20px;
+}
+
+.item  {
+  display: flex;
+  max-width: 100%;
+}
+
+.col1 {
+  flex: 0 0 100%;
+}
+
+.col1of4 {
+  flex: 0 0 25%;
+}
+
+.col1of2{
+  flex:0 0 50%;
+}
+
+.col3of4 {
+  flex:0 0 75%;
+}
+
+.col1of3 {
+  flex: 0 0 33.33%;
+}
+
+.col2of3 {
+  flex: 0 0 66.66%;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
