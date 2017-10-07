@@ -11,7 +11,11 @@
 
 
 body {
+  background-color: #f2e7d2;
   font-family: arial;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 130px;
 
 }
 
@@ -21,12 +25,14 @@ img{
   max-width: 100%;
   display: block;
   padding: 10px;
+  z-index: 0;
 }
 
 img:hover{
   transform: scale(1.2);
-  z-index: -100;
+
 }
+
 .item.thumb{
   flex: 0 0 10%;
 }
@@ -35,21 +41,20 @@ img:hover{
   display: flex;
   max-width: 100%;
 }
-.heading{
-  position:fixed;
-  top:0px;
-  right:0px;
-  margin: 20px;
-  font-size: 100px;
-  font-kerning: 30px;
-  font-family: Futura;
-  font-weight: bold;
-}
 
 .heading:hover{
   color: #FF4136;
 }
-
+.white{
+  top: 75px;
+  display: block;
+  position: fixed;
+  width: 100vw;
+	height: 40px;
+	background: #232844;
+  z-index: ;
+  left:-10px;
+}
 .faster{
   position: fixed;
   bottom:0px;
@@ -61,14 +66,27 @@ img:hover{
   font-family: Futura;
   font-weight: bold;
   position:fixed;
-  top:10px;
   right:40px;
-  font-size: 130px;
+  font-size: 150px;
+  z-index: 200;
+  top:10px;
+  color: #232844;
+}
+
+.menu{
+  font-family: Futura;
+  color: #f7f4e6;
+  position:fixed;
+  right:400px;
+  top: 87px;
+  font-size: 14px;
+  z-index: 200;
 }
 
 span.nav_all{
     font-size: 15px;
 }
+
 
 span.coloury:hover{
   color: #EFCF09;
@@ -76,7 +94,7 @@ span.coloury:hover{
 }
 
 span.colourr:hover{
-  color: #C73939;
+  color: #e24848;
   cursor: pointer;
 }
 
