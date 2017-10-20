@@ -11,7 +11,7 @@
 
 
 body {
-  background-color: #f2e7d2;
+  background-color: #DADADA;
   font-family: arial;
   margin-left: 150px;
   margin-right: 150px;
@@ -51,7 +51,7 @@ img:hover{
   position: fixed;
   width: 100vw;
 	height: 40px;
-	background: #232844;
+	background: #8C8C8C;
   z-index: ;
   left:-10px;
 }
@@ -70,7 +70,7 @@ img:hover{
   font-size: 150px;
   z-index: 200;
   top:10px;
-  color: #232844;
+  color: #8C8C8C;
 }
 
 .menu{
