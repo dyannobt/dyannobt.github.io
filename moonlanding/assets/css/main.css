@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+  background: black;
+background-image: url("")
+}
+
+.time {
+  position: ;
+  font-size: 30px;
+  margin-top: 20px;
+  right: auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Courier New;
+  color:white;
+  z-index: 10;
+  transition: all 0.6s ease-in-out;
+  animation: moonfloat 12s ease-in-out infinite;
+}
+@keyframes moonfloat {
+	0% {
+		transform: translatey(0px);
+    text-shadow:10px 10px 8px black;
+	}
+	50% {
+		transform: translatey(-10px);
+    text-shadow:10px 14px 12px black;
+	}
+	100% {
+		transform: translatey(0px);
+    text-shadow:10px 10px 8px black;
+	}
+}
+
+.about{
+  position: fixed;
+  color: white;
+  font-size: 15px;
+  font-family: Courier New;
+  top: 20px;
+  left: 2vw;
+  cursor: pointer;
+}
+.about:hover {
+    text-decoration: underline;
+}
+
+.about:hover .aboutweekdays {
+    display: block;
+}
+
+.aboutweekends, .aboutweekdays{
+  width: 200px;
+  padding-top: 10px;
+  font-size: 10px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  font-family: Andale Mono;
+}
+
+.schedule{
+  text-align: right;
+  position: fixed;
+  top: 20px;
+  right:3vw;
+  z-index: 12;
+  color: white;
+  font-size: 15px;
+  font-family: Courier New;
+  cursor:pointer;
+  width: 20vw;
+}
+.schedule:hover {
+    text-decoration: underline;
+}
+.schedule:hover .content {
+    display: block;
+}
+
+.text{
+  position: fixed;
+  z-index: 20;
+  font-size: 40px;
+  color: white;
+  margin-top: 20vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  animation: float 8s ease-in-out infinite;
+
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+    text-shadow:5px 10px 10px black;
+	}
+	50% {
+		transform: translatey(-20px);
+    text-shadow:5px 14px 15px black;
+	}
+	100% {
+		transform: translatey(0px);
+    text-shadow:5px 10px 10px black;
+	}
+}
+
+.weekends {
+  padding-left:22vw;
+  padding-right:22vw;
+  font-size: 15px;
+  font-family: Courier New;
+}
+.tagline{
+  font-size: 30px;
+  font-family: Courier New;
+  display: none;
+}
+
+.content{
+  right: 0px;
+  padding-top: 10px;
+  font-size: 10px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  font-family: Andale Mono;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  pointer-events: none;
+  z-index: -10;
+}
+
+.container img{
+  position: fixed;
+}
+
+.moon{
+  width: 70vw;
+  height: auto;
+}
+
+.launch{
+  width: 20vw;
+  height: auto;
+  left: 10vw;
+  position: fixed;
+  transition: all 0.4s ease-in-out;
+  animation: leftimgs 18s ease-in-out infinite;
+  z-index: -20;
+}
+
+@keyframes leftimgs {
+	0% {
+		transform: translatey(10px);
+	}
+  50% {
+    transform: translatey(100px);
+  }
+	100% {
+		transform: translatey(10px);
+	}
+}
+
+.team{
+  width: 20vw;
+  height: auto;
+  right: 10vw;
+  position: fixed;
+  transition: all 0.4s ease-in-out;
+  animation: rightimgs 30s ease-in-out infinite;
+  z-index: -20;
+}
+
+@keyframes rightimgs {
+	0% {
+		transform: translatey(100px);
+	}
+  50% {
+    transform: translatey(400px);
+  }
+	100% {
+		transform: translatey(100px);
+	}
+}
+
+
+
+.event1a, .event1aa, .event1b, .event1c, .event1d, .event1e, .event1f, .event1g,
+.event2a, .event2b, .event2c, .event2d,
+.event3a, .event3b, .event3c, .event3d,
+.event4a, .event4b, .event4c, .event4d, .event4e, .event4f,
+.event5a, .event5b, .event5c, .event5d, .event5e, .event5f, .launch, .team{
+  display: none;
+}
+
+.content1, .content2, .content3, .content4, .content5{
+  display: none;
+}
+
+.weekends,.day1, .day2, .day3, .day4, .day5{
+  display: none;
+}

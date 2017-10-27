@@ -1,0 +1,71 @@
+/* Note target the body first with the modifer.
+For example, every evenSecond change the div color to blue.
+Every oddSecond change the div color to red
+
+
+Target multiple together. Every evenSecond only in the evening, display an image.
+
+body.evenS.pm .sunset {
+  display:block;
+}
+*/
+
+
+/* Time CSS here */
+
+body.monday .container img {
+  transform: scale(0.02);
+}
+
+body.tuesday .container img {
+  transform: scale(0.4);
+}
+
+body.wednesday .container img {
+  transform: scale(0.6);
+}
+
+body.thursday .container img {
+  transform: scale(0.8);
+}
+
+body.friday .container img {
+  transform: scale(0.8);
+}
+
+
+body.saturday .container img, body.saturday .schedule, body.sunday .container img, body.sunday .schedule{
+  display: none;
+}
+
+body.saturday .weekends,body.sunday .weekends, body.saturday .tagline,body.sunday .tagline, body.saturday .about:hover .aboutweekends, body.sunday .about:hover .aboutweekends {
+  display: block;
+}
+
+body.saturday .about:hover .aboutweekdays, body.sunday .about:hover .aboutweekdays{
+  display: none;
+}
+
+body.monday .content1, body.tuesday .content2, body.wednesday .content3, body.thursday .content4, body.friday .content5{
+  display: block;
+}
+
+body.monday.h9.m32.am .event1a, body.monday.h9.m33.am .event1aa, body.monday.h9.m32.am .launch, body.monday.h9.m32.am .team, body.monday.h9.m44.am .event1b, body.monday.h12.m22.pm .event1c, body.monday.h12.m49.pm .event1d, body.monday.h2.m54.pm .event1e, body.monday.h8.m52.pm .event1f, body.monday.h10.m59.pm .event1g {
+  display: block;
+}
+
+body.tuesday.h8.m48.am .event2a, body.tuesday.h12.m17.pm .event2b, body.tuesday.h7.m31.pm .event2c, body.tuesday.h7.m31.pm .event2d{
+  display: block;
+}
+
+body.wednesday.h9.m41.am .event3a, body.wednesday.h4.m40.pm .event3b, body.wednesday.h10.pm .event3c, body.wednesday.h11.m12.pm .event3d{
+  display: block;
+}
+
+body.thursday.h6.m58.am .event4a, body.thursday.h10.m42.am .event4b, body.thursday.h1.m13.pm .event4c, body.thursday.h1.m28.am .event4d, body.thursday.h1.m55.pm .event4e, body.thursday.h6.m57.pm .event4f{
+  display: block;
+}
+
+body.friday.h9.m27.am .event5a, body.friday.h1.m46.pm .event5b, body.friday.h3.m8.pm .event5c, body.friday.h3.m47.pm .event5d, body.friday.h4.m5.pm .event5e, body.friday.h4.m18.pm .event5f{
+  display: block;
+}
