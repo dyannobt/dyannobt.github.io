@@ -37,55 +37,55 @@ $('.nav_all').click(function(event) {
 
 
 
-$('.nav_solid').click(function(event) {
+$('.nav_firebrick').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.solid').removeClass('hide');
-  $('.item.solid').addClass('show');
+  $('.item.firebrick').removeClass('hide');
+  $('.item.firebrick').addClass('show');
 });
 
 
-$('.nav_velvet').click(function(event) {
+$('.nav_redd').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.velvet').removeClass('hide');
-  $('.item.velvet').addClass('show');
+  $('.item.redd').removeClass('hide');
+  $('.item.redd').addClass('show');
 });
 
 
-$('.nav_polished').click(function(event) {
+$('.nav_goldenrod').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.polished').removeClass('hide');
-  $('.item.polished').addClass('show');
+  $('.item.goldenrod').removeClass('hide');
+  $('.item.goldenrod').addClass('show');
 });
 
-$('.nav_soft').click(function(event) {
+$('.nav_gold').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.soft').removeClass('hide');
-  $('.item.soft').addClass('show');
+  $('.item.gold').removeClass('hide');
+  $('.item.gold').addClass('show');
 });
 
-$('.nav_metallic').click(function(event) {
+$('.nav_deepsky').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.metallic').removeClass('hide');
-  $('.item.metallic').addClass('show');
+  $('.item.deepsky').removeClass('hide');
+  $('.item.deepsky').addClass('show');
 });
 
 
-$('.nav_fabric').click(function(event) {
+$('.nav_midnight').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.fabric').removeClass('hide');
-  $('.item.fabric').addClass('show');
+  $('.item.midnight').removeClass('hide');
+  $('.item.midnight').addClass('show');
 });
 
 

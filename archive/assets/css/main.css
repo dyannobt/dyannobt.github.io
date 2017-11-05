@@ -11,7 +11,7 @@
 
 
 body {
-  background-color: #DADADA;
+  background-color: linen;
   font-family: arial;
   margin-left: 150px;
   margin-right: 150px;
@@ -51,10 +51,19 @@ img:hover{
   position: fixed;
   width: 100vw;
 	height: 40px;
-	background: #8C8C8C;
+	animation: colorchangebg 30s infinite;
   z-index: ;
   left:-10px;
 }
+
+@keyframes colorchangebg
+    {
+      0%   {background: BurlyWood ;}
+      33%  {background: Salmon;}
+      66%  {background: steelblue;}
+      100% {background: BurlyWood ;}
+    }
+
 .faster{
   position: fixed;
   bottom:0px;
@@ -70,8 +79,17 @@ img:hover{
   font-size: 150px;
   z-index: 200;
   top:10px;
-  color: #8C8C8C;
+  animation: colorchange 30s infinite;
 }
+
+@keyframes colorchange
+    {
+      0%   {color: BurlyWood ;}
+      33%  {color: Salmon;}
+      66%  {color: steelblue;}
+      100% {color: BurlyWood ;}
+    }
+
 
 .menu{
   font-family: Futura;
