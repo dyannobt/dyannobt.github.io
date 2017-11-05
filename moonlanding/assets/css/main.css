@@ -156,7 +156,7 @@ background-image: url("")
   height: auto;
 }
 
-.launch{
+.launch, .man{
   width: 20vw;
   height: auto;
   left: 10vw;
@@ -178,7 +178,7 @@ background-image: url("")
 	}
 }
 
-.team{
+.team, .footprint{
   width: 20vw;
   height: auto;
   right: 10vw;
@@ -187,6 +187,8 @@ background-image: url("")
   animation: rightimgs 30s ease-in-out infinite;
   z-index: -20;
 }
+
+
 
 @keyframes rightimgs {
 	0% {
@@ -206,7 +208,7 @@ background-image: url("")
 .event2a, .event2b, .event2c, .event2d,
 .event3a, .event3b, .event3c, .event3d,
 .event4a, .event4b, .event4c, .event4d, .event4e, .event4f,
-.event5a, .event5b, .event5c, .event5d, .event5e, .event5f, .launch, .team{
+.event5a, .event5b, .event5c, .event5d, .event5e, .event5f, .launch, .team, .footprint, .man{
   display: none;
 }
 
